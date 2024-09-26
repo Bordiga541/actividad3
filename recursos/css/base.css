@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: "Poppins";
+    src: url(fonts/Poppins-Regular.ttf);
+}
+html{
+    font-family: Poppins, sans-serif;
+    font-family: 18px;
+    color: #1b1b2a;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    background-color: #1b1b2a;
+}
+.img-encabezado{
+    max-width: 190px;
+}
+.encabezado nav{
+    background-color:  #2e2e4a;
+    text-align: right;
+}
+.encabezado nav a{
+    color: white;
+    padding-right: 1%;
+}
+.contenido{
+    padding-top: 23px;
+}
+.contenido img{
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.contenido h1{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.contenido p{
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.pie{
+    background-color: #2e2e4a;
+}
+.pie ul{
+    color: white;
+    text-align: center;
+    list-style-type: none;
+}
